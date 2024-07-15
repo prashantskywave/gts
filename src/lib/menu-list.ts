@@ -251,37 +251,37 @@ export function getMenuList(pathname: string): Group[] {
           icon: Users,
           submenus: [
             {
-              href: "/system-settings",
+              href: "/setting/system-settings",
               label: "System Settings",
               active: pathname === "/system-settings"
             },
             {
-              href: "/group-permissions",
+              href: "/setting/group-permissions",
               label: "Group Permissions",
               active: pathname === "/group-permissions"
             },
             {
-              href: "/warehouse",
+              href: "/setting/warehouse",
               label: "Warehouse",
               active: pathname === "/warehouse"
             },
             {
-              href: "/category",
+              href: "/setting/category",
               label: "Category",
               active: pathname === "/category"
             },
             {
-              href: "/brand",
+              href: "/setting/brand",
               label: "Brand",
               active: pathname === "/brand"
             },
             {
-              href: "/currency",
+              href: "/setting/currency",
               label: "Currency",
               active: pathname === "/currency"
             },
             {
-              href: "/unit",
+              href: "/setting/unit",
               label: "Unit",
               active: pathname === "/unit"
             }
